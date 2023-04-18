@@ -1,0 +1,96 @@
+.musta{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-jan-hero-banner-desktop-01-13jan23$en?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.musta1{
+    width: 50%;
+    height: 50px; 
+    padding-top: 12%;
+    padding-left:15%;
+
+}
+.m{
+    width: 50%; 
+}
+.mt{
+    width: 30%;
+    
+}
+
+.musta2{
+    width: 50%;
+    /* display:centro; */
+     padding-top: 3%;
+     margin:0 auto;
+     padding-bottom: 3%;
+     text-align: center;
+
+}
+
+.musta3{
+    background-color:rgb(208, 207, 205);
+    width: 30%;
+    margin: 12px;
+}
+
+.musta4{
+    width:100%;
+    height: 600px;
+    background-color: grey;
+    padding-bottom: 20px;
+}
+
+.a1{
+    padding-top: 10px;
+    background-color: goldenrod;
+}
+.a2{
+    padding-top: 10px;
+    background-color:black;
+    color: azure;
+}
+.a3{
+    padding-top: 10px;
+    background-color:aliceblue;
+}
+.b2{
+    /* padding-top: 2%; */
+    margin:0 auto;
+    padding-bottom: 3%;
+    padding-left: 30%;
+}
+
+.b1{
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.musta5{
+    background-color:gray;
+    height: 300px;  
+}
+.musta6{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+     padding-top: 3%;
+     margin:0 auto;
+     padding-bottom: 3%;
+     text-align: center;
+}
+.musta7{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/playstation-stars-hero-page-banner-desktop-01-en-02sep22?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}

@@ -1,0 +1,455 @@
+html{
+    font-size: 100%;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+.padding-remove{
+    padding: 0;
+}
+
+.logo{
+    background-color: black;
+    text-align: end;
+}
+
+.logo img{
+    max-height: 15px;
+    margin: 0.5em 0;
+    margin-right: 1em;
+}
+
+.btn-radius{
+    border-radius: 100rem;;
+}
+
+.justify-content-sbtw{
+    justify-content: space-between;
+}
+
+.dropdown-menu {
+  min-width:inherit;
+}
+
+.position-static{
+    position: static;
+}
+
+.drop-fix{
+    top: 98%!important;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    border-radius: 0;
+}
+
+.header-bottom .dropdown .list-inline-item img{
+    width: 8em;
+}
+
+.jumbotron{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/hogwarts-legacy-hero-banner-desktop-01-en-24jan22?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron1{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/psvr2-register-homepage-hero-desktop-01-en-14nov22?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron2{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/dualsense-edge-hero-banner-desktop-01-en-06feb23?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron3{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/live-from-ps5-homepage-hero-desktop-02-en-25jan23?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron4{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-en-18may22?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron5{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/overwatch-2-s3-hero-desktop-01-en-26jan23?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo-align img{
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1em;
+}
+
+.jumbo-row{
+    display: flex;
+    height: 700px;
+    align-items: flex-end;
+}
+.jumbo-content{
+    padding-bottom: 5em;
+}
+
+.jumbo-content h1{
+    margin-bottom: 0.5em;
+}
+
+.jumbo-carosel img{
+    max-width: 100%;
+    border-radius: 1rem;
+    transition: 1s;
+}
+
+.jumbo-carosel .col:hover img{
+    transform: translateY(-20px);
+}
+
+.jumbo-carosel {
+    margin-top: 3em;
+}
+
+.img-selected img{
+    padding: 2px;
+    border: 3px solid #0d6efd;
+    border-radius: 1.2rem;
+}
+
+.playstation{
+    padding: 8em 0;
+}
+
+.playstation-top{
+    text-align: center;
+}
+
+.playstation-bottom{
+    padding-top: 4em;
+}
+
+.ps-img img{
+    width: 100%;
+}
+
+
+
+.thumb-img img{
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.thumb-active{
+    border-bottom: 3px solid #0d6efd;
+}
+
+.thumb-off{
+    opacity: 50%;
+    transition: 1.5s;
+}
+
+.row .thumb-off:hover{
+    opacity: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-bottom{
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    padding: 3em 0;
+}
+
+.games-top img{
+    width: 100%;
+    border-radius: 2rem;
+
+}
+
+.games-bottom{
+    margin-top: 1em;
+}
+
+.ps-four{
+    padding: 0;
+    padding-top: 2em;
+}
+
+.thumb-text{
+    width: 85%;
+}
+
+.small-banner{
+    margin-top: 3em;
+    background-color: grey;
+    height: 400px;
+}
+
+.ps-logo-resize img{
+    width: 65%;
+}
+
+.ps-games-resize img{
+    width: 100%;
+}
+
+.height-fix img{
+    min-height: 288px;
+}
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.left-small-banner{
+    padding: 2em 0;
+}
+@media screen and (max-width:576px) {
+    .ps-games-resize {
+    display: none;
+}
+
+}
+
+.bg-blue{
+    background-color: #161C3B;
+}
+
+footer{
+    width: 100%;
+    background-color: #00439C;
+    padding: 3em 0;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+}
+
+.footer-nation svg{
+    width: 25px;
+}
+
+.footer-bottom img{
+    width: 200px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0d6efd!important
+}
+
+.dropdown-toggle::after {
+    vertical-align: middle;
+    border: 0;
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: url(../img/chevron-down-solid.svg) no-repeat;
+}
+
+.dropdown-toggle:hover:after {
+    background: url(../img/chevron-down-solid-hover.svg) no-repeat;
+}
+
+.dropdown-toggle.show::after {
+    background: url(../img/chevron-down-solid.svg) no-repeat;
+    transform: rotate(180deg);
+}
+
+.dropdown-toggle.show:hover:after {
+    background: url(../img/chevron-down-solid-hover.svg) no-repeat;
+    transform: rotate(180deg);
+} 
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: white;
+    box-shadow: 0px 1px 5px black;
+}
+
+.sublink{
+    text-decoration: none;
+    color: black;
+}
+
+.sublink::before{
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    vertical-align: middle;
+    margin-right: 0.3em;
+}
+
+.btn-dark:hover ,  
+.btn-primary:hover {
+    box-shadow: inset 0 0 0 2px white;
+}
+
+.btn-danger:hover, 
+.btn-light:hover {
+    box-shadow: inset 0 0 0 2px black;
+}
+.a:hover{
+    background-color:white;
+}
+.b{
+    background-color:white;
+}
+@media screen and (max-width:992px) {
+    .special{
+    align-items: baseline!important
+    }
+}
+
+.a{
+    color: aliceblue;
+}
+.img1 {
+    max-width: 100%;
+    height: auto;
+}
+.h-one{
+    text-align: center;
+    color: black;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: calc(1rem*2.44141);
+  }
+
+  .container-one, .container-tuo{
+    display: grid;
+    grid-template-columns:  52% auto;
+    margin: 0% 10%;
+  }
+
+  .img2 {
+    width: 81%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .wrapper iframe {
+   
+   margin: -5% 20% 20% 4%;
+    max-width: 93%;
+    max-height: 71%;
+    border-radius: 8%;  
+  }
+   button{
+    background-color: #0d6efd;
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .container-one h1{
+    margin-top: 60px;
+  }
+  .container-one p,h1,button {
+    max-width: 90%;
+    margin-left: 7%;
+}
+.cover1{
+    display: flex;
+    margin-top: 0px;
+}
+.box {
+    max-width: 25%;
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    border-radius: 10px;
+    background-color: #fefefe;
+}
+.box img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 10px 10px -1px;
+    border-radius: 10px;
+}
+.cover2{
+    display: flex;
+    margin-top: 0px;
+}
+.boxx {
+    max-width: 33%;
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(29 30 34);
+}
+.boxx iframe{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 10px 10px -1px;
+    border-radius: 10px;
+}
+.h-tuo{
+    text-align: center;
+    color:aliceblue;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 300;
+    font-style: normal;
+    font-size: calc(1rem*2.44141);
+  }
+ .cover2 p,h2 {
+    font-size: small;
+
+ }
+
+
+ 
+
+  
